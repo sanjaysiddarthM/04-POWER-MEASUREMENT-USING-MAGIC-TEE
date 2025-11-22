@@ -61,21 +61,27 @@ Coupling (dB) = 10 log10 PC1/ PH = -10 log10 PC2/ PH.
 The difference in the attenuator settings gives the ration of the
 power coupled to thecollinear to that in the main arm, in dB. This value is around 3dB.
 
-**F.	Observation: ( Include your own Table relevant to the Experiment)**
-
+**F.	Observation:**
 **Isolation measurement** (Tabulation)
-
+<img width="647" height="112" alt="image" src="https://github.com/user-attachments/assets/0204765d-9147-4ecf-af18-e266d5b18b12" />
 **Measurement of power division** (Tabulation)
-
+<img width="619" height="126" alt="image" src="https://github.com/user-attachments/assets/cca22e04-f81a-4603-86a8-818e11e7a38a" />
 
 **G.	Analysis of Results: (Write your own)**
+From the isolation experiment, the difference between the attenuator readings A1 and A2 gives the isolation between the E-arm and H-arm. A larger difference indicates better isolation, meaning very little power couples between these two ports. The measured values match the expected behavior of a magic tee, where opposite arms are ideally isolated.
 
-(Include sample calculations/Display/plot/typical graph)
+In the power-division experiment, the difference in attenuator settings (A1 – A2) is close to 3 dB, confirming that the input power is divided equally between the two collinear arms. This verifies the theoretical property of the magic tee where the signal splits into two equal parts (each receiving half the input power).
 
-**H.	Conclusions: (Write your Own)**
+Overall, the results confirm that the magic tee performs as a 4-port hybrid junction, providing good isolation between E and H arms and approximately equal 3 dB power division in the collinear arms.
+**H.	Conclusions:**
 
 Isolation between E and H arms (dB) = (A1 – A2) dB
 Coupling between collinear arms and E/H arms (dB) = (A1 – A2) dB
+From the isolation experiment, the difference between the attenuator readings A1 and A2 gives the isolation between the E-arm and H-arm. A larger difference indicates better isolation, meaning very little power couples between these two ports. The measured values match the expected behavior of a magic tee, where opposite arms are ideally isolated.
+
+In the power-division experiment, the difference in attenuator settings (A1 – A2) is close to 3 dB, confirming that the input power is divided equally between the two collinear arms. This verifies the theoretical property of the magic tee where the signal splits into two equal parts (each receiving half the input power).
+
+Overall, the results confirm that the magic tee performs as a 4-port hybrid junction, providing good isolation between E and H arms and approximately equal 3 dB power division in the collinear arms.
 
 **Precautions:**
 
@@ -84,3 +90,4 @@ Coupling between collinear arms and E/H arms (dB) = (A1 – A2) dB
 •	Observation should be taken properly.
 
 **Result:**
+The isolation between the E-arm and H-arm of the magic tee and the 3 dB power division in the collinear arms were successfully measured and verified.
